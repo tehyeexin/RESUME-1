@@ -13,7 +13,7 @@ public class resume {
 		printMarital();
 		printCitizenship();
 		printHome();
-		printHP();
+		printHp();
 		printGrade();
 		printCgpa();
 		printWork();
@@ -82,7 +82,7 @@ public class resume {
 			System.out.println("Home Adress : " + home);
 		}
 		
-		public static void printHP() {
+		public static void printHp() {
 			Scanner in = new Scanner (System.in);
 			
 			System.out.print("Enter Your H/P : ");
