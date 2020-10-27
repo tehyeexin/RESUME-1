@@ -4,7 +4,7 @@ public class resume {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-Scanner in = new Scanner (System.in);
+		Scanner in = new Scanner (System.in);
 		
 		printName();
 		printAge();
