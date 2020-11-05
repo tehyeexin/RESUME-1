@@ -102,14 +102,9 @@ public class resume {
 		public static void printCgpa() { 
 			Scanner in = new Scanner (System.in);
 			
-			System.out.print("Enter CGPA Semester 1 : ");
-			double sem1 = in.nextDouble();
-			System.out.print("Enter CGPA Semester 2 : ");
-			double sem2 = in.nextDouble();
-			
-			double sum = sem1+sem2;
-			double totalcgpa = sum/2;
-			System.out.println("CGPA for current semester is = " + totalcgpa);
+			System.out.print("Enter CGPA for STPM : ");
+			double cgpa = in.nextDouble();
+			System.out.println("CGPA for STPM is = " + cgpa);
 		}
 		
 		public static void printWork() {
